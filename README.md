@@ -46,24 +46,24 @@ Tasks Overview
 Implementation Details
 Task 1: Tensor Manipulations & Reshaping
 
-  Key operations: tf.random.uniform(), tf.rank(), tf.shape(), tf.reshape(), tf.transpose()
+     Key operations: tf.random.uniform(), tf.rank(), tf.shape(), tf.reshape(), tf.transpose()
 
-  Demonstrates tensor creation, reshaping, transposing, and broadcasting
+     Demonstrates tensor creation, reshaping, transposing, and broadcasting
 
 Task 2: Loss Functions & Hyperparameter Tuning
 
-  Implements MSE and CCE using TensorFlow's loss functions
+     Implements MSE and CCE using TensorFlow's loss functions
 
-  Uses Matplotlib for visualizing loss comparisons
+     Uses Matplotlib for visualizing loss comparisons
 
 Task 3: Train a Model with Different Optimizers
 
-  Utilizes tf.keras to build and train models on MNIST data
+     Utilizes tf.keras to build and train models on MNIST data
 
-  Compares Adam and SGD optimizers using accuracy plots
+     Compares Adam and SGD optimizers using accuracy plots
 
 Task 4: TensorBoard Logging
 
-  Implements a simple neural network with TensorBoard callbacks
+     Implements a simple neural network with TensorBoard callbacks
 
-  Stores logs in "logs/fit/" directory for visualization
+     Stores logs in "logs/fit/" directory for visualization
