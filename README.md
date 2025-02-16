@@ -16,54 +16,54 @@ This assignment explores fundamental concepts in neural networks and deep learni
 
 Tasks Overview
 1. Tensor Manipulations & Reshaping
-Create and manipulate tensors
+   Create and manipulate tensors
 
-Perform reshaping and transposing operations
+   Perform reshaping and transposing operations
 
-Demonstrate broadcasting in TensorFlow
+   Demonstrate broadcasting in TensorFlow
 
 2. Loss Functions & Hyperparameter Tuning
-Implement and compare Mean Squared Error (MSE) and Categorical Cross-Entropy (CCE) losses
+   Implement and compare Mean Squared Error (MSE) and Categorical Cross-Entropy (CCE) losses
 
-Analyze how changes in predictions affect loss values
+   Analyze how changes in predictions affect loss values
 
-Visualize loss functions using Matplotlib
+   Visualize loss functions using Matplotlib
 
 3. Train a Model with Different Optimizers
-Work with the MNIST dataset
+   Work with the MNIST dataset
 
-Train models using Adam and Stochastic Gradient Descent (SGD) optimizers
+   Train models using Adam and Stochastic Gradient Descent (SGD) optimizers
 
-Compare and visualize training and validation accuracy trends
+   Compare and visualize training and validation accuracy trends
 
 4. Train a Neural Network and Log to TensorBoard
-Preprocess the MNIST dataset
+   Preprocess the MNIST dataset
 
-Train a simple neural network with TensorBoard logging
+   Train a simple neural network with TensorBoard logging
 
-Analyze loss and accuracy trends using TensorBoard
+   Analyze loss and accuracy trends using TensorBoard
 
 Implementation Details
 Task 1: Tensor Manipulations & Reshaping
 
-Key operations: tf.random.uniform(), tf.rank(), tf.shape(), tf.reshape(), tf.transpose()
+  Key operations: tf.random.uniform(), tf.rank(), tf.shape(), tf.reshape(), tf.transpose()
 
-Demonstrates tensor creation, reshaping, transposing, and broadcasting
+  Demonstrates tensor creation, reshaping, transposing, and broadcasting
 
 Task 2: Loss Functions & Hyperparameter Tuning
 
-Implements MSE and CCE using TensorFlow's loss functions
+  Implements MSE and CCE using TensorFlow's loss functions
 
-Uses Matplotlib for visualizing loss comparisons
+  Uses Matplotlib for visualizing loss comparisons
 
 Task 3: Train a Model with Different Optimizers
 
-Utilizes tf.keras to build and train models on MNIST data
+  Utilizes tf.keras to build and train models on MNIST data
 
-Compares Adam and SGD optimizers using accuracy plots
+  Compares Adam and SGD optimizers using accuracy plots
 
 Task 4: TensorBoard Logging
 
-Implements a simple neural network with TensorBoard callbacks
+  Implements a simple neural network with TensorBoard callbacks
 
-Stores logs in "logs/fit/" directory for visualization
+  Stores logs in "logs/fit/" directory for visualization
