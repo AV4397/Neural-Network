@@ -1,6 +1,7 @@
 CS5720 Neural Network and Deep Learning - Home Assignment 1
 Student Information
-Name: veda Arvind Kumar
+
+Name: Veda Arvind Kumar
 
 Student ID: 700774397
 
